@@ -3,8 +3,8 @@ const {createApp} = Vue
 createApp({
     data() {
         return {
-            message: 'Hello World',
-            saluto: 'Ciao Vue'
+            message: '',
+            saluto: 'Ciao!'
         }
     }
 }).mount('#saluto')

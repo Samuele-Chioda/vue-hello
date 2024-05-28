@@ -8,4 +8,16 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2rem;
     padding:2rem;
+    background-color: rgb(219, 171, 97);
+    color: rgb(206, 42, 206);
+    text-align:center;
+    height:100vh;
+}
+
+h1{
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+input{
+    margin:2rem;
 }

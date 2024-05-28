@@ -10,14 +10,17 @@
 <body>
 
     <div id="saluto">
-        <h1>
-            {{message}}
-        </h1>
         <p>
             {{saluto}}
         </p>
-        <!-- sovrascrivi il contenuto di message con v-model=message -->
-        <input v-model="message">
+        <h1>
+            {{message}}
+        </h1>
+        <!-- sovrascrivi il contenuto di h1 message con v-model=message, per collegare un imput ad un dato -->
+        <!-- collega label al suo input tramite ID con for="" -->
+        <label for="user-name">scrivi il tuo nome</label>
+        <input id="user-name" type="text" v-model="message">
+        <img src="" alt="">
     </div>
 
     <script src="./js/script.js"></script>
