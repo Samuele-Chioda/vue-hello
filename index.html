@@ -9,9 +9,14 @@
 </head>
 <body>
 
-    <div>
-        <h1 id="app">{{message}}</h1>
-        <img :src="imageUrl" @click="faiQualcosa">
+    <div id="saluto">
+        <h1>
+            {{message}}
+        </h1>
+        <p>
+            {{saluto}}
+        </p>
+        <!-- sovrascrivi il contenuto di message con v-model=message -->
         <input v-model="message">
     </div>
 
