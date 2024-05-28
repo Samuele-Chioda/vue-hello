@@ -18,9 +18,16 @@
         </h1>
         <!-- sovrascrivi il contenuto di h1 message con v-model=message, per collegare un imput ad un dato -->
         <!-- collega label al suo input tramite ID con for="" -->
-        <label for="user-name">scrivi il tuo nome</label>
+        <label for="user-name">scrivi il tuo nome:</label> <br>
         <input id="user-name" type="text" v-model="message">
-        <img src="" alt="">
+    </div>
+    <div>
+        <label for="img">inserisci l'Url dell'immagine che vuoi visualizzare:</label>
+        <input id="img" type="text" v-model="imgUrl">
+        <!-- v-bind può anche essere scritto con solo i due punti (v-bind:src === :src) -->
+    </div>
+    <div>
+        <img :src="imgUrl" alt="">
     </div>
 
     <script src="./js/script.js"></script>

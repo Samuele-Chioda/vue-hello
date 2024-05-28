@@ -4,7 +4,8 @@ createApp({
     data() {
         return {
             message: '',
-            saluto: 'Ciao!'
+            saluto: 'Benvenuto!',
+            imgUrl:''
         }
     }
 }).mount('#saluto')
